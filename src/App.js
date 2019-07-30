@@ -99,18 +99,21 @@ const App = () => {
       <Links />
 
       <div className="more">
-        Hello there! My name is Jess and I'm a software engineer at <a href="https://buzzfeed.com">BuzzFeed</a> where I work on full-stack web development.
-
-        I strongly believe in bringing my whole self to work, so throughout my career I’ve been very involved in working with ERGs and helping diversity efforts - I lead up our LGBTQ employee resource group and have volunteered at Grace Hopper, Lesbians who Tech + many more conferences!
+        <div className="blurb">
+          Hi, I’m Jess! I'm a software engineer at <a href="https://buzzfeed.com">BuzzFeed</a> where I work on full-stack web development. I also help drive diversity and inclusion efforts by leading BuzzFeed’s LGBTQ employee resource group and volunteering at conferences like Grace Hopper and Lesbians who Tech.
+        </div>
+        <div>
+          My goal as an engineer is to show craftsmanship, courtesy and empathy in my work and interactions with others.
+        </div>
       </div>
 
       <div className="fun-facts">
-        <h3>extra fun facts:</h3>           
+        <h3>fun facts:</h3>           
         <ol>
-          <li><span role="img" aria-label="star">👩🏼‍🔧</span> used to work in the computer department at Best Buy and built my own computers</li>
-          <li><span role="img" aria-label="star">⚡️</span> spoke at <a className="amp" href="https://www.youtube.com/watch?v=HsCq5XIprXY&feature=youtu.be&t=224">Google's AMP Conf 2018</a> + contributed to AMP open source code</li>
-          <li><span role="img" aria-label="star">🔥</span> have a great love for <a className="twitter" href="https://twitter.com/jessanastasio">javascript memes</a> (actually all memes)</li>
-          <li><span role="img" aria-label="star">☕️</span> you can probably find me skateboarding around the city or drinking coffee </li>
+          <li><span role="img" aria-label="star">👩🏼‍🔧</span> I used to work in the computer department at Best Buy and built my own computers</li>
+          <li><span role="img" aria-label="star">⚡️</span> I spoke at <a className="amp" href="https://www.youtube.com/watch?v=HsCq5XIprXY&feature=youtu.be&t=224">Google's AMP Conf 2018</a> and contributed to AMP open source spec</li>
+          <li><span role="img" aria-label="star">🔥</span> I have a great love for <a className="twitter" href="https://twitter.com/jessanastasio">javascript memes</a> (actually all memes)</li>
+          <li><span role="img" aria-label="star">☕️</span> You can probably find me skateboarding around the city or drinking coffee </li>
         </ol>
       </div>
       
