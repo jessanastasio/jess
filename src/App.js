@@ -86,9 +86,9 @@ const App = () => {
           <RotatingPhoto/>
         </div>
         <div className="about-me">
-          <h2>Hi, I'm Jess!</h2>
+          <h2>Jess Anastasio</h2>
           <ol>
-            <li><span className="about-emoji" role="img" aria-label="star">🌟</span> software engineer in nyc</li>
+            <li><span className="about-emoji" role="img" aria-label="liberty">🗽</span> software engineer in nyc</li>
             <li><span className="about-emoji" role="img" aria-label="heart">💕</span> loves javascript</li>
             <li><span className="about-emoji" role="img" aria-label="disk">💾</span> huge tech nerd</li>
             <li><span className="about-emoji" role="img" aria-label="mic">🎤</span> karaoke fan</li>
@@ -98,10 +98,22 @@ const App = () => {
 
       <Links />
 
-      {/* <div className="more">
-        <button>keep clickin to learn more</button>
-      </div> */}
+      <div className="more">
+        Hello there! My name is Jess and I'm a software engineer at <a href="https://buzzfeed.com">BuzzFeed</a> where I work on full-stack web development.
 
+        I strongly believe in bringing my whole self to work, so throughout my career I’ve been very involved in working with ERGs and helping diversity efforts - I lead up our LGBTQ employee resource group and have volunteered at Grace Hopper, Lesbians who Tech + many more conferences!
+      </div>
+
+      <div className="fun-facts">
+        <h3>extra fun facts:</h3>           
+        <ol>
+          <li><span role="img" aria-label="star">👩🏼‍🔧</span> used to work in the computer department at Best Buy and built my own computers</li>
+          <li><span role="img" aria-label="star">⚡️</span> spoke at <a className="amp" href="https://www.youtube.com/watch?v=HsCq5XIprXY&feature=youtu.be&t=224">Google's AMP Conf 2018</a> + contributed to AMP open source code</li>
+          <li><span role="img" aria-label="star">🔥</span> have a great love for <a className="twitter" href="https://twitter.com/jessanastasio">javascript memes</a> (actually all memes)</li>
+          <li><span role="img" aria-label="star">☕️</span> you can probably find me skateboarding around the city or drinking coffee </li>
+        </ol>
+      </div>
+      
     </div>
   );
 }

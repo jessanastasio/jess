@@ -1,13 +1,16 @@
 .App {
-  text-align: center;
-  /* background-color: #fdfbfb;  how do i get this fullscreen*/
+  text-align: center;  
   margin: 50px auto;
-  /* max-width: 650px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+}
+
+::selection {
+  background-color: #eb4888;
+  color: #000;
 }
 
 @media (max-width: 600px) {
@@ -55,7 +58,7 @@
 }
 
 .about-emoji {
-  padding-right: 15px;
+  padding-right: 10px;
 }
 
 .img-container {
@@ -105,13 +108,43 @@
   }
 }
 
-button {
-  border: 3px solid #96979c;
-  border-radius: 35px;
-  box-sizing: border-box;
-  color: #96979c;
-  font-size: 1rem;
-  overflow: auto;
-  transition: 0.4s ease all;
-  padding: 17px;
+.more {
+  max-width: 650px;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 0 20px 20px 20px;
+}
+
+.more a {
+  color: #eb4888;
+}
+
+.fun-facts {
+  font-size: 1.2rem;
+  max-width: 650px;
+  text-align: left;
+  margin: 0 40px 0 40px;
+  max-width: 550px;
+}
+
+.fun-facts h3 {
+  font-size: calc(10px + 2vmin);
+  color: #10a2f5;
+}
+
+.fun-facts ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.fun-facts li {
+  margin-bottom: 10px;
+}
+
+.fun-facts .amp {
+  color: #24d05a;
+}
+
+.fun-facts .twitter {
+  color: #e9bc3f;
 }
