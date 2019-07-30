@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/jessanastasio.github.io/static/css/main.04b4593b.chunk.css",
+    "main.js": "/jessanastasio.github.io/static/js/main.6c5fedaf.chunk.js",
+    "main.js.map": "/jessanastasio.github.io/static/js/main.6c5fedaf.chunk.js.map",
+    "runtime~main.js": "/jessanastasio.github.io/static/js/runtime~main.654c239a.js",
+    "runtime~main.js.map": "/jessanastasio.github.io/static/js/runtime~main.654c239a.js.map",
+    "static/js/2.f0910273.chunk.js": "/jessanastasio.github.io/static/js/2.f0910273.chunk.js",
+    "static/js/2.f0910273.chunk.js.map": "/jessanastasio.github.io/static/js/2.f0910273.chunk.js.map",
+    "index.html": "/jessanastasio.github.io/index.html",
+    "precache-manifest.416b3cbe7a2699e89c504a7046adc3be.js": "/jessanastasio.github.io/precache-manifest.416b3cbe7a2699e89c504a7046adc3be.js",
+    "service-worker.js": "/jessanastasio.github.io/service-worker.js",
+    "static/css/main.04b4593b.chunk.css.map": "/jessanastasio.github.io/static/css/main.04b4593b.chunk.css.map",
+    "static/media/child.jpg": "/jessanastasio.github.io/static/media/child.f3b007ca.jpg",
+    "static/media/compbuild.jpg": "/jessanastasio.github.io/static/media/compbuild.ae1d45f3.jpg",
+    "static/media/happybestbuy.jpg": "/jessanastasio.github.io/static/media/happybestbuy.0df9f3db.jpg",
+    "static/media/mexico.jpg": "/jessanastasio.github.io/static/media/mexico.4f61b1d9.jpg",
+    "static/media/myface.jpg": "/jessanastasio.github.io/static/media/myface.822f1dee.jpg",
+    "static/media/pride.jpg": "/jessanastasio.github.io/static/media/pride.f2d6a865.jpg",
+    "static/media/resume.pdf": "/jessanastasio.github.io/static/media/resume.29200930.pdf"
+  }
+}
