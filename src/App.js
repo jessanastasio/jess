@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import myFace from "./images/myface/myface.jpg";
-import resume from "./resume.pdf";
 import "./App.css";
 
 const App = () => {
@@ -129,11 +128,8 @@ const App = () => {
 
       <div className="more">
         <div className="blurb">
-          Hi, I’m Jess! I'm a software engineer at{" "}
-          <a href="https://buzzfeed.com">BuzzFeed</a> where I work on full-stack
-          web development. I also help drive diversity and inclusion efforts by
-          leading BuzzFeed’s LGBTQ employee resource group and volunteering at
-          conferences like Grace Hopper and Lesbians who Tech.
+          Hi, I’m Jess! I'm a software engineer working on{" "}
+          <a href="https://news.apple.com">Apple News</a>.
         </div>
         <div>
           My goal as an engineer is to show craftsmanship, courtesy and empathy
@@ -169,7 +165,7 @@ const App = () => {
               🔥
             </span>{" "}
             I have a great love for{" "}
-            <a className="twitter" href="https://twitter.com/jessanastasio">
+            <a className="twitter" href="https://twitter.com/jessanastasio/likes">
               javascript memes
             </a>{" "}
             (actually all memes)
