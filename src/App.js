@@ -61,9 +61,6 @@ const App = () => {
         <a style={linkStyle} href="http://github.com/jessanastasio">
           github
         </a>
-        <a style={linkStyle} href={resume}>
-          resume
-        </a>
         <a style={linkStyle} href="mailto:jessicaanastasio39@gmail.com">
           email
         </a>
