@@ -49,8 +49,8 @@ const App = () => {
     let linkStyle = { color: linkColor };
 
     return (
-      <nav className="links">
-        <ol>
+      <nav>
+        <ol className="links">
           <li>
             <a style={linkStyle} href="http://twitter.com/jessanastasio">
                 twitter
@@ -102,7 +102,7 @@ const App = () => {
         <div className="img-container">
           <RotatingPhoto />
         </div>
-        <div className="about-me">
+        <article className="about-me">
           <h2>Jess Anastasio</h2>
           <ol>
             <li>
@@ -130,12 +130,12 @@ const App = () => {
               karaoke fan
             </li>
           </ol>
-        </div>
+        </article>
       </header>
 
       <Links />
 
-      <article className="more">
+      <section className="more">
         <div className="blurb">
           Hi, I’m Jess! I'm a software engineer working on{" "}
           <a href="https://news.apple.com">Apple News</a>. Previously, I was a software engineer at <a href="https://buzzfeed.com">BuzzFeed</a>.
@@ -144,9 +144,9 @@ const App = () => {
           My goal as an engineer is to show craftsmanship, courtesy and empathy
           in my work and interactions with others.
         </div>
-      </article>
+      </section>
 
-      <div className="fun-facts">
+      <article className="fun-facts">
         <h3>fun facts:</h3>
         <ol>
           <li>
@@ -187,7 +187,7 @@ const App = () => {
             coffee{" "}
           </li>
         </ol>
-      </div>
+      </article>
     </div>
   );
 };
