@@ -138,7 +138,7 @@ const App = () => {
       <article className="more">
         <div className="blurb">
           Hi, I’m Jess! I'm a software engineer working on{" "}
-          <a href="https://news.apple.com">Apple News</a>.
+          <a href="https://news.apple.com">Apple News</a>. Previously, I was a software engineer at <a href="https://buzzfeed.com">BuzzFeed</a>.
         </div>
         <div>
           My goal as an engineer is to show craftsmanship, courtesy and empathy
