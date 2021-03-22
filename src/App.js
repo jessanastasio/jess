@@ -18,7 +18,6 @@ const App = () => {
 
   // image component that will update w random image URL
   const RotatingPhoto = () => {
-    console.log(faceImgs)
     const firstImageURL = myFace; // always set this headshot first
     const [imageURL, setImageURL] = useState(firstImageURL);
 
@@ -50,20 +49,30 @@ const App = () => {
     let linkStyle = { color: linkColor };
 
     return (
-      <div className="links">
-        <a style={linkStyle} href="http://twitter.com/jessanastasio">
-          twitter
-        </a>
-        <a style={linkStyle} href="http://linkedin.com/in/jessicaanastasio">
-          linkedin
-        </a>
-        <a style={linkStyle} href="http://github.com/jessanastasio">
-          github
-        </a>
-        <a style={linkStyle} href="mailto:jessicaanastasio39@gmail.com">
-          email
-        </a>
-      </div>
+      <nav className="links">
+        <ol>
+          <li>
+            <a style={linkStyle} href="http://twitter.com/jessanastasio">
+                twitter
+            </a>
+          </li>
+          <li>
+            <a style={linkStyle} href="http://linkedin.com/in/jessicaanastasio">
+              linkedin
+            </a>
+          </li>
+          <li>
+            <a style={linkStyle} href="http://github.com/jessanastasio">
+              github
+            </a>
+          </li>
+          <li>
+           <a style={linkStyle} href="mailto:jessicaanastasio39@gmail.com">
+             email
+           </a>
+          </li>  
+        </ol>
+      </nav>
     );
   };
 
@@ -89,7 +98,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <div className="header">
+      <header className="header">
         <div className="img-container">
           <RotatingPhoto />
         </div>
@@ -122,11 +131,11 @@ const App = () => {
             </li>
           </ol>
         </div>
-      </div>
+      </header>
 
       <Links />
 
-      <div className="more">
+      <article className="more">
         <div className="blurb">
           Hi, I’m Jess! I'm a software engineer working on{" "}
           <a href="https://news.apple.com">Apple News</a>.
@@ -135,7 +144,7 @@ const App = () => {
           My goal as an engineer is to show craftsmanship, courtesy and empathy
           in my work and interactions with others.
         </div>
-      </div>
+      </article>
 
       <div className="fun-facts">
         <h3>fun facts:</h3>
